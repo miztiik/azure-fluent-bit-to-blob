@@ -2,6 +2,7 @@
 
 ![Miztiik Automation - FluentBit to Azure Blob](images/miztiik_architecture_fluent_bit_to_blob_001.png)
 
+1. Have an Azure VM bootstrapped with python3
 1. Install Fluent Bit
 
 ```bash
@@ -51,7 +52,7 @@ systemctl status fluent-bit
 1. Trigger the data generator
 
 ```bash
-python3 data_gen.py
+python3 app/local_vm_producer.py
 ```
 
 ![Miztiik Automation - FluentBit to Azure Blob](images/miztiik_architecture_fluent_bit_to_blob_002.png)
