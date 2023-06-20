@@ -1,5 +1,7 @@
 # FluentBit to Azure Blob
 
+![Miztiik Automation - FluentBit to Azure Blob](images/miztiik_architecture_fluent_bit_to_blob_001.png)
+
 1. Install Fluent Bit
 
 ```bash
@@ -52,6 +54,6 @@ systemctl status fluent-bit
 python3 data_gen.py
 ```
 
-![Miztiik Automation - FluentBit to Azure Blob](images/miztiik_architecture_fluent_bit_to_blob_001.png)
-
 ![Miztiik Automation - FluentBit to Azure Blob](images/miztiik_architecture_fluent_bit_to_blob_002.png)
+
+![Miztiik Automation - FluentBit to Azure Blob](images/miztiik_architecture_fluent_bit_to_blob_003.png)
